@@ -9,4 +9,4 @@ edition = "2021"
 c2 = { path = "../c2" }
 
 [features]
-c1_some_feature = []
+c1_some_feature = ["c2/c1_some_feature"]
